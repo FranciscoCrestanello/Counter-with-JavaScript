@@ -9,11 +9,17 @@
 </head>
 <body>
     <header class="header">
-        <h1>Counter with JavaScript</h1>
+        <h1 class="header__h1">Counter with JavaScript</h1>
     </header>
     <article class="article">
         <section class="counter">
             <h2 class="counter__h2">COUNTER</h2>
+            <div class="counter__div">
+                <p class="counter__div-p" id="number">0</p>
+                <button onclick="decreseNumber()" class="counter__div-button" id="decrese">Decrese</button>
+                <button onclick="resetNumber()" class="counter__div-button buttonReset" id="reset">Reset</button>
+                <button onclick="increseNumber()" class="counter__div-button" id="increse">Increse</button>
+            </div>
         </section>
     </article>
     <script src="app.js"></script>
